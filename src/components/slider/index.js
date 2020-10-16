@@ -8,7 +8,7 @@ const Slider = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://cdn.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_960_720.png"
+        src="https://via.placeholder.com/800X400"
         alt="First slide"
       />
       <Carousel.Caption>
@@ -19,7 +19,7 @@ const Slider = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://cdn.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_960_720.png"
+        src="https://via.placeholder.com/800X400"
         alt="Third slide"
       />
 
@@ -31,7 +31,7 @@ const Slider = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://cdn.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_960_720.png"
+        src="https://via.placeholder.com/800X400"
         alt="Third slide"
       />
 
