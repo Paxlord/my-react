@@ -1,25 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Home from './components/home';
-
-const data = [{
-  id: '12345',
-  name: 'Cyril',
-  phone: '0606060606',
-}, {
-  id: '1234',
-  name: 'Matt',
-  phone: '0707070707',
-}, {
-  id: '123',
-  name: 'David',
-  phone: '0808080808',
-}];
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  Col, Container, Row,
+} from 'react-bootstrap';
+import Navigation from './components/navigation';
+import Slider from './components/slider';
 
 const App = () => (
   <div>
-    {data.map((element) => <Home data={element} />)}
+    <Navigation />
+    <Container>
+      <Row>
+        <Col xs={8}>
+          <Slider />
+        </Col>
+        1of1
+        <Col />
+      </Row>
+    </Container>
   </div>
 );
 
